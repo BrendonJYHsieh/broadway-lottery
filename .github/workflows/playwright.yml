@@ -4,7 +4,7 @@ on:
     # Run at 5:01 PM New York time (ET)
     # During EDT (Mar-Nov): 5:01 PM ET = 21:01 UTC
     # During EST (Nov-Mar): 5:01 PM ET = 22:01 UTC
-    - cron: "*/5 * * * *"  # Runs every 5 minutes for testing
+    - cron: "2 14 * * *"  # 5:01 PM ET during EDT
   push:
     branches: [main, master]
 jobs:
