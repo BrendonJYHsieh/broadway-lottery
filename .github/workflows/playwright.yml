@@ -3,6 +3,8 @@ on:
   schedule:
     # Run every day at 14:23 UTC
     - cron: "45 21 * * *"
+  push:
+    branches: [main, master]
 jobs:
   test:
     timeout-minutes: 60
